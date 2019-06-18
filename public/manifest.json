@@ -1,0 +1,9 @@
+{
+  "short_name": "Tech Test",
+  "name": "Legal OS Tech Test",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

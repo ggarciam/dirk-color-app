@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+.ready-go {
+  font-size: 60px;
+}
