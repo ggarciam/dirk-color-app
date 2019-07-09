@@ -1,5 +1,7 @@
 # Legal OS React Tech Test
 
+__Don't forget to run `npm install` before starting__
+
 Hi there! Thanks for doing our tech test.
 
 The exercise you will be doing today is to create a tiny single-page app. Please see designs for what it should look like:
