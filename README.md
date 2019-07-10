@@ -2,7 +2,7 @@
 
 __Don't forget to run `npm install` before starting__
 
-Hi there! Thanks for doing our tech test.
+Hi there! Thanks for doing our tech test. Feel free to use either Javascript or Typescript (correct packages already installed).
 
 The exercise you will be doing today is to create a tiny single-page app. Please see designs for what it should look like:
 
