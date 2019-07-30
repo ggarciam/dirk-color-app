@@ -1,6 +1,11 @@
 # Legal OS React Code Exercise
 
-Hi there! Thanks for doing our coding exercise. :). 
+Hi there! Thanks for doing our coding exercise. :). The exercise consists out of two parts:
+
+1. Code the exercise
+2. Answer questions in the [FOLLOW_UP.md](/FOLLOW_UP.md) document.
+
+# Exercise
 
 The exercise you will be doing today is to create a tiny single-page app:
 
