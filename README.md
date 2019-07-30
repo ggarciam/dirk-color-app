@@ -39,6 +39,10 @@ When clicking on the link you will only see a static image. If you log in you wi
 
 __Don't forget to run `npm install` before starting__
 
+## Handing In
+
+Please zip the entire repository and sent it to the person who you are in contact with! __Do not forget to answer [the follow up questions!](/FOLLOW_UP.md)__.
+
 ### Thanks:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
