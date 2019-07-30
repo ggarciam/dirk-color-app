@@ -1,29 +1,38 @@
 # Legal OS React Code Exercise
 
-__Don't forget to run `npm install` before starting__
+Hi there! Thanks for doing our coding exercise. :). 
 
-Hi there! Thanks for doing our tech test. Feel free to use either Javascript or Typescript (correct packages already installed).
+The exercise you will be doing today is to create a tiny single-page app:
 
-The exercise you will be doing today is to create a tiny single-page app. Please see designs for what it should look like:
+![Screenshot of Eventual App](example_screenshot.png)
 
-![Example Screenshot](example_screenshot.png)
+## Requirements
 
-Important to note:
+There is only one use story:
 
-- The user should be able to pick a color by clicking one of the colors on the right
-- When a color is picked, Dirk should be the new color and he should express his new ways of feeling as well
-- What colors are in the color picker are not important, feel free to choose
-- The app needs to work on any PC screen in landscape mode
+* As a user I want to be able to pick a new color that Dirk will show he is feeling like. I also want to see Dirk express his new feeling. Dirk can only feel colors, not emotions.
+
+### Design Requirements
+
+Please see Figma designs for the design requirements:
+
+https://www.figma.com/file/oOJv5ARvgBJAaNkORQjyWM/Untitled?node-id=0%3A1
+
+When clicking on the link you will only see a static image. If you log in you will actually see the design requirements when hovering over the components.
+
+### Technical Requirements
+
+- Colors in the picker should be assigned at random at startup.
+- The app needs to work on any PC screen in landscape mode.
   - Minimal resolution 1280 x 720
   - Maximal resolution 3840 x 2160
 - Feel free to use any libraries you feel you need.
-- Dirk is centered on left side screen, color picker is centered on right side of screen
-- Both are centered vertically
-- Dirk is `400px` by `400px`
-- Color buttons are `40px` by `40px`
-- Space between color buttons is `10px`
-- Texts are in `Roboto` font, except for the hex code which is in a mono-space code font.
-- Both texts are 2nd level header.
+- Typescript is enabled in this repository but you are not obliged to use it.
+- Both texts should be `h2` components.
+
+## Getting Started
+
+__Don't forget to run `npm install` before starting__
 
 ### Thanks:
 
