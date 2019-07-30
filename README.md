@@ -1,4 +1,4 @@
-# Legal OS React Tech Test
+# Legal OS React Code Exercise
 
 __Don't forget to run `npm install` before starting__
 
