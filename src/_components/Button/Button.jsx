@@ -1,15 +1,12 @@
 import React from "react";
-import "./Color.css";
+import { Color } from '../Color';
+import "./Button.css";
 
-export default class Color extends React.Component {
+export const Button = (props) => {
 
-   constructor(props) {
-       super(props);
-   }
-
-   render () {
-       return (
-           <div className="circle" style={{backgroundColor: this.props.color}} />
-       );
-   }
-}
+   return (
+       <button className="btn" onClick={() => props.handleChange(props.color)} >
+           <Color color={props.color} />
+       </button>
+   );
+};
