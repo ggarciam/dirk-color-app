@@ -1,4 +1,4 @@
-.dirk .circle {
+.dirk span[class*="__circle"] {
     height: 400px;
     width: 400px;
     border-radius: 50%;

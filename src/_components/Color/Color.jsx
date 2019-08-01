@@ -4,6 +4,6 @@ import "./Color.css";
 export const Color = (props) => {
 
    return (
-       <span className="circle" style={{backgroundColor: props.color}} />
+       <span className={props.classBEM + '__circle'} style={{backgroundColor: props.color}} />
    );
 };

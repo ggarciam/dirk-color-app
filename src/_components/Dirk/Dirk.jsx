@@ -9,15 +9,16 @@ export default class Dirk extends React.Component {
         super(props);
 
         this.state = {
-            label: 'Hi I\'m Dirk, today I am feeling '
+            label: 'Hi I\'m Dirk, today I am feeling ',
+            class: 'dirk'
         }
     }
 
     render () {
         return (
-            <div className="dirk">
-                <Title label={this.state.label + this.props.color} />
-                <Color color={this.props.color} />
+            <div className={this.state.class}>
+                <Title label={this.state.label + this.props.color} classBEM={this.state.class} />
+                <Color color={this.props.color} classBEM={this.state.class} />
             </div>
         );
     }

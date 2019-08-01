@@ -1,0 +1,5 @@
+div[class*="palette"] span[class*="__circle"] {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}

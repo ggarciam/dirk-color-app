@@ -5,8 +5,8 @@ import "./Button.css";
 export const Button = (props) => {
 
    return (
-       <button className="btn" onClick={() => props.handleChange(props.color)} >
-           <Color color={props.color} />
+       <button className={props.classBEM + '__btn'} onClick={() => props.handleChange(props.color)} >
+           <Color color={props.color} classBEM={props.classBEM + '__btn'} />
        </button>
    );
 };

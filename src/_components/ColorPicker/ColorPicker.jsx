@@ -9,16 +9,18 @@ export default class ColorPicker extends React.Component {
         super(props);
 
         this.state = {
-            label: 'Choose a color!'
+            label: 'Choose a color!',
+            class: 'color-picker'
         }
     }
 
     render () {
         return (
-            <div className="color-picker">
-                <Title label={this.state.label} />
+            <div className={this.state.class}>
+                <Title label={this.state.label} classBEM={this.state.class} />
                 <Palette colors={this.props.colors}
-                         handleChange={this.props.handleChange} />
+                         handleChange={this.props.handleChange}
+                         classBEM={this.state.class} />
             </div>
         );
     }
