@@ -3,7 +3,7 @@ I didn't add any libraries to make the process easier and faster, even though I 
 * **SASS**: Including CSS preprocessing would make the development easier and reduce the amount of possible mistakes.
 * **Bootstrap**: The project is really small and maybe not that necessary, but even to position components Bootstrap can be a good choice (easy to make future possible changes in the component organization in space).
 ### Q) How long, in hours, did you spend on the test?
-About 6 hours. In this case a more seasoned React developer would have finished it for sure in less time, but I wanted to make sure to follow the best practices in order to organize the architecture of the project.
+About 4 hours. In this case a more seasoned React developer would have finished it for sure in less time, but I wanted to make sure to follow the best practices in order to organize the architecture of the project.
 
 ### Q) If you had more time, what further improvements or new features would you add?
 I would have added testing for the different components, functions, etc. It is possibly out of the scope for this assignment, but the structure of the project is already prepared to include testing functionalities.
